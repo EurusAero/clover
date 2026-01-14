@@ -4,7 +4,7 @@ Requires=roscore.service
 
 [Service]
 User=orangepi
-ExecStart=/bin/bash -c ". /home/pi/catkin_ws/devel/setup.sh; \
+ExecStart=/bin/bash -c ". /home/orangepi/catkin_ws/devel/setup.sh; \
                       ROS_HOSTNAME=10.42.0.1 exec stdbuf -o L roslaunch clover clover.launch --wait --screen --skip-log-check \
                       2> >(tee /tmp/clover.err)"
 
