@@ -3,7 +3,7 @@
 
     <arg name="direction_z" default="down"/> <!-- direction the camera points: down, up -->
     <arg name="direction_y" default="backward"/> <!-- direction the camera cable points: backward, forward -->
-    <arg name="device" default="/dev/video0"/> <!-- v4l2 device -->
+    <arg name="device" default="/dev/flow_camera"/> <!-- v4l2 device -->
     <arg name="throttled_topic" default="true"/> <!-- enable throttled image topic -->
     <arg name="throttled_topic_rate" default="5.0"/> <!-- throttled image topic rate -->
     <arg name="rectify" default="false"/> <!-- enable rectification -->
