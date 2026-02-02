@@ -14,7 +14,7 @@
 - [Настройка](setup.md)
   - [Калибровка датчиков](calibration.md)
   - [Настройка пульта](radio.md)
-    - [Работа с FS-A8S](rc_flysky_a8s.md)
+    - [Работа с JHEMCU ELRS RX24T](rc_flysky_a8s.md)
   - [Полетные режимы](modes.md)
   - [Настройка питания](power.md)
   - [Настройка Failsafe](failsafe.md)
